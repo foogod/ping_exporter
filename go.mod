@@ -10,3 +10,7 @@ require (
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace (
+	github.com/digineo/go-ping => github.com/foogod/go-ping v1.1.0
+)
